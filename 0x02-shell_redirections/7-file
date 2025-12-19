@@ -1,2 +1,4 @@
 #!/bin/bash
-printf "Best School\n" > '*\'"Best School"\'\*$\?*****:)'
+# Creates file with special characters and writes "Best School" into it
+touch '*\'"Best School"\'\*$\?*****:)'
+echo "Best School" > '*\'"Best School"\'\*$\?*****:)'
