@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # A Bash script that prints "To infinity and beyond" indefinitely and reacts to SIGTERM
 
-# Define a handler for SIGTERM
+# shellcheck disable=SC2009
 trap 'echo "I am invincible!!!"' SIGTERM
 
-# Infinite loop
 while true; do
     echo "To infinity and beyond"
     sleep 2
