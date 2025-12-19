@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A Bash script that lists all current processes in a user-friendly hierarchical format
+ps -ef --forest
