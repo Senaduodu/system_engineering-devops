@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that lists all current processes in a user-friendly hierarchical format
-ps -ef --forest
+# A Bash script that lists all current processes in a full user-oriented format with hierarchy
+
+ps -e -o uid,pid,ppid,c,stime,tty,time,cmd --forest
