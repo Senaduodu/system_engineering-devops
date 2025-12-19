@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A Bash script that displays the PID and process name of all processes containing "bash"
 
-for pid in $(pidof bash); do
+pgrep -x bash | while read pid; do
     echo "$pid bash"
 done
